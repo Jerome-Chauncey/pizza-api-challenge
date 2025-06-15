@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipenv environment files
+Pipfile.lock
+
+# Virtual environment
+.venv/
+venv/
+
+# Flask-specific
+instance/
+.env
+*.env
+
+# SQLite database (if used during development)
+*.sqlite3
+*.db
+
+# Migrations (optional, if you want to ignore generated migration files)
+migrations/
+
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Postman collections (optional if personal/test)
+*.postman_collection.json
