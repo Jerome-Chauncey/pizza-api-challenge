@@ -15,7 +15,49 @@ instance/
 .env
 *.env
 
-# SQLite database (if used during development)
+# SQLite database (if used during # Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Flask
+instance/
+
+# Logs
+*.log
+
+# Pipenv
+Pipfile.lock
+
+# DB files (SQLite, if any)
+*.sqlite3
+*.db
+
+# Flask-Migrate (optional)
+# migrations/
+
+# Editor / OS files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Pytest and coverage (if applicable)
+.pytest_cache/
+.coverage
+
+# Postman (optional if personal)
+*.postman_collection.json
+development)
 *.sqlite3
 *.db
 
