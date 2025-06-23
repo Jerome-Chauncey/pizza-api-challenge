@@ -52,6 +52,8 @@ pipenv shell
 
    ```bash
    python server/seed.py
+   # Or 
+   PYTHONPATH=.. python seed.py
    ```
 
 ---
