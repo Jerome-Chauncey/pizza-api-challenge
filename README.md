@@ -16,7 +16,7 @@ A Flask-based REST API for managing pizza restaurants, their menus, and pizza of
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pizza-api-challenge.git
+git clone https://github.com/Jerome-Chauncey/pizza-api-challenge.git
 cd pizza-api-challenge
 
 # Install dependencies and activate environment
